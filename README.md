@@ -1,7 +1,7 @@
 # e-ink-weather-display
 A Python-based weather display for the Pimoroni Inky Impression 7.3" e-ink screen, powered by OpenWeather data and custom-rendered typography.
 
-![Preview of the display](output/sample-display.png)
+![Preview](/preview.png)
 
 ## Overview
 This project fetches current weather data from the OpenWeather API and renders it into a custom visual layout designed for an e-ink display. It was built as a small side project combining API integration, lightweight Python scripting, and visual design for low-power hardware.
@@ -12,6 +12,7 @@ The display is intended to feel more considered than a basic dashboard: function
 - Pulls live weather data from OpenWeather
 - Renders a custom display image for e-ink
 - Uses custom font assets for a more editorial visual style
+- Generates a unique quote based on weather pattern variables
 - Separates data-fetching logic from rendering logic
 - Designed for a lightweight hardware setup
 
